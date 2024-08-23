@@ -18,7 +18,7 @@ jobs:
         git config --global user.name 'Saket8538'
         git config --global user.email 'saket8538@gmail.com'
         git add date.txt
-        git commit -m "Daily commit $(date)"
+        git commit -m "commit and update $(date)"
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
